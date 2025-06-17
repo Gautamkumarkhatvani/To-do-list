@@ -25,7 +25,6 @@ const addTask = () => {
         saveTasks(); 
     }
 };
-
 const toggleTaskComplete = (index) => {
     tasks[index].completed = !tasks[index].completed;
     updateTaskList();
